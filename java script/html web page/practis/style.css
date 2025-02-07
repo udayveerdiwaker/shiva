@@ -1,0 +1,42 @@
+body{
+    height: 100vh;
+}
+.animation{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: aqua;
+    position: relative;
+    animation-name: ball;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+}
+@keyframes ball{
+    100%,0%{
+        background-color: red;
+        left:0px;
+        top: 0px;
+    }
+    25%{
+        background-color: yellowgreen;
+        left: calc(50% - 200px);
+        top: 0px;
+    } 
+    50%{
+        background-color: pink;
+        left: calc(100% - 200px);
+        top: calc(100% - 200px);
+    }
+    75%{
+        background-color: blue;
+        left: 0px;
+        top: calc(100% - 200px);
+    }
+    30%{
+        background-color: orange;
+        left: calc(100% - 200px);
+        top: 0p
+        
+    }
+}

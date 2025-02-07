@@ -1,0 +1,50 @@
+.topnav{
+    background-color: rgb(229, 238, 238);
+    height: 12vh;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    /* justify-content: space-between; */
+}
+.topnav h1{
+    font-family: var();
+    font-weight: 700;
+    font-size:28px;
+    padding: 18px 80px;
+}
+h1 span{
+    color: #ce1212;
+}
+.navbar a{
+    color: #7f7f90;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;  
+    margin-left:20px; 
+}
+.navbar a:hover{
+    color: black;
+    text-decoration: underline 2px solid #ce1212;
+    text-underline-offset: 10px;
+}
+.dropdown{
+    border: none;
+    background-color: rgb(229, 238, 238);
+    color: #7f7f90;
+    font-size: 18px;
+    text-decoration: none; 
+    width: 130px;
+}
+.book{
+    background-color: #ce1212;
+    border-radius: 50px;
+    border: none;
+    margin: 20px 120px;
+    color: white;
+    width: 125px;
+    height: 35px;
+
+}
+.book:hover{
+    background-color: #cc4a4a;
+}

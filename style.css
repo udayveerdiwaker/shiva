@@ -1,0 +1,18 @@
+ .center{
+    text-align: center;
+    background-image: url(images.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: contain;    
+    width: 500px;
+    height: 80vh;
+    margin-left:350px;
+    padding: 20px;
+    border: red solid 2px;
+ }
+ .space{
+   white-space: 10px;
+ }
+ 
+ 

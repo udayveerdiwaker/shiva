@@ -1,0 +1,12 @@
+.topdiv{
+    background-color: #000;
+    opacity: 0.8;
+    position: fixed;
+    height: 10vh;
+    width: 100%;
+}
+.sidetext{
+    color: white;
+    font-size: 30px;
+    margin-left: 50px;
+}
